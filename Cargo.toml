@@ -1,0 +1,20 @@
+[package]
+name = "orange-web"
+version = "0.1.0"
+edition = "2021"
+authors = ["loveweni"]
+
+[dependencies]
+
+rocket = { version = "0.5.1", features = ["json", "mtls"] }
+#--------------------------   web框架 end   --------------------------
+
+serde = { version = "1.0.217", features = ["derive"] }
+serde_json = "1.0.135"
+#--------------------------   json库 end   --------------------------
+
+lombok = "0.4.0"
+#--------------------------   lombok end   --------------------------
+
+rand = "0.8.5"
+#--------------------------   随机数库 end   --------------------------
